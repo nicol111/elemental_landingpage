@@ -7,7 +7,7 @@ const Footer = () => {
             <div className="container">
                 <div className="column">
                     <img
-                        src="/imagenes/logos/logo blanco.png"
+                        src="/imagenes/logos/logo-blanco.png"
                         alt="Logo Elemental"
                         className="footer-logo"
                     />

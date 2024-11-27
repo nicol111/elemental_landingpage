@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import logo from './imagenes/logos/Logo Elemental.png';
+import logo from '../imagenes/logos/Logo-Elemental.png';
 import '../css/header.css';
 
 
