@@ -7,7 +7,7 @@ import "../css/cursos.css";
 const ProximosCursos = () => {
   const cursos = [
     {
-      imgSrc: "/imagenes/cursos/curso_roblox.jpg",
+      imgSrc: "imagenes/cursos/curso_roblox.jpg",
       alt: "Programación para Roblox",
       modalidad: "Online",
       edad: "10 a 14 años",
@@ -17,7 +17,7 @@ const ProximosCursos = () => {
       enlace: "https://wa.link/kcgocp",
     },
     {
-      imgSrc: "/imagenes/cursos/curso2_.jpg",
+      imgSrc: "imagenes/cursos/curso2_.jpg",
       alt: "Programación de Videojuegos con Unity",
       modalidad: "Online",
       edad: "14 a 18 años",
@@ -27,7 +27,7 @@ const ProximosCursos = () => {
       enlace: "https://wa.link/0ynyf8",
     },
     {
-      imgSrc: "/imagenes/cursos/curso3_.jpg",
+      imgSrc: "imagenes/cursos/curso3_.jpg",
       alt: "Productividad con Notion y ChatGPT",
       modalidad: "Online",
       edad: "18+ años",
@@ -37,7 +37,7 @@ const ProximosCursos = () => {
       enlace: "https://wa.link/8ac68w",
     },
     {
-      imgSrc: "/imagenes/cursos/curso4_.jpg",
+      imgSrc: "imagenes/cursos/curso4_.jpg",
       alt: "Criptomonedas",
       modalidad: "Online",
       edad: "18+ años",

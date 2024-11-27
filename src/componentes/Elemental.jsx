@@ -14,28 +14,28 @@ const Elemental = () => {
                 <div className="icons">
                     <div className="icon-box">
                         <div className="icon">
-                            <img src="/imagenes/iconos/alumno.png" alt="Estudiantes" />
+                            <img src="imagenes/iconos/alumno.png" alt="Estudiantes" />
                         </div>
                         <p className="number">+45,000</p>
                         <p className="text">Estudiantes</p>
                     </div>
                     <div className="icon-box">
                         <div className="icon">
-                            <img src="/imagenes/iconos/compania.png" alt="Clientes Corporativos" />
+                            <img src="imagenes/iconos/compania.png" alt="Clientes Corporativos" />
                         </div>
                         <p className="number">+20</p>
                         <p className="text">Clientes Corporativos</p>
                     </div>
                     <div className="icon-box">
                         <div className="icon">
-                            <img src="/imagenes/iconos/estudiar.png" alt="Programas Educativos" />
+                            <img src="imagenes/iconos/estudiar.png" alt="Programas Educativos" />
                         </div>
                         <p className="number">+50</p>
                         <p className="text">Programas Educativos</p>
                     </div>
                     <div className="icon-box">
                         <div className="icon">
-                            <img src="/imagenes/iconos/medalla-de-oro.png" alt="Medallas Olímpicas" />
+                            <img src="imagenes/iconos/medalla-de-oro.png" alt="Medallas Olímpicas" />
                         </div>
                         <p className="number">+100</p>
                         <p className="text">Medallas Olímpicas</p>
