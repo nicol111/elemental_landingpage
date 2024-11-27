@@ -1,0 +1,167 @@
+.proximos-cursos {
+    text-align: left;
+    padding: 2em 1em;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(1, 155, 221, 0.852) 50%, rgba(255,255,255,1) 100%);
+    
+}
+
+.titulo-con-linea {
+    font-size: 1.2em;
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px; 
+}
+
+.linea-superior {
+    width: 110px; 
+    height: 4px; 
+    background-color: #019add; 
+    margin-right: 15px;
+    transition: width 0.5s ease-in-out; 
+}
+
+.proximos-cursos h2 {
+    font-size: 2em; 
+    color: #019add;
+    margin: 0; 
+    text-align: left; 
+}
+
+.titulo-con-linea .linea-superior.activo {
+    width: 150px; 
+}
+
+.cursos-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+
+.curso {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s, box-shadow 0.3s; 
+    align-items: stretch; 
+    height: auto; 
+}
+
+.curso:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.curso img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.curso-info {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start; 
+    min-height: 250px; 
+    flex-grow: 1;
+}
+
+.curso-info p {
+    margin: 0.5em 0;
+    text-align: left; 
+}
+
+.curso-info h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 0.5em;
+    min-height: 3em; 
+    display: flex; 
+    align-items: center; 
+    text-align: left; 
+
+}
+
+.curso-info .detalles {
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    margin-bottom: 0.5em; 
+}
+
+.curso-info .modalidad,
+.curso-info .edad {
+    color: #019add;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+.curso-info .modalidad {
+    color: #019add;
+    text-align: left; 
+}
+
+.curso-info .edad {
+    color: #019add;
+    text-align: right;
+}
+
+.curso-info .fecha,
+.curso-info .hora {
+    color: #666;
+    font-size: 0.9em;
+    line-height: 20px;
+    text-align: left;
+}
+
+.curso-info .fecha i,
+.curso-info .hora i {
+    color: #019add;
+    padding-right: 10px;
+}
+
+.curso-info .enlace {
+    color: #019add;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 8px;
+    text-align: left;
+}
+
+.curso-info .enlace:hover {
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    .cursos-contenedor {
+        flex-direction: column;
+        align-items: center;
+    }
+    .curso {
+        width: 80%;
+    }
+
+    .titulo-con-linea {
+        font-size: 1.4rem;
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .linea-superior {
+        margin-bottom: 10px; 
+        margin-right: 0; 
+    }
+
+    .proximos-cursos h2 {
+        font-size: 1.5em; 
+    }
+}
+
+

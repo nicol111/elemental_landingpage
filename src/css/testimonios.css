@@ -1,0 +1,139 @@
+.testimonios {
+    text-align: center;
+    margin: 30px auto;
+    padding: 3em 1em;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(1, 155, 221, 0.852) 50%, rgba(255,255,255,1) 100%);
+}
+
+.testimonios h2 {
+    font-size: 2em;
+    color: #019add;
+    margin-bottom: 1.5em;
+}
+
+.carrusel-contenedor {
+    overflow: hidden;
+    position: relative;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.carrusel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+    gap: 40px;
+}
+
+.testimonio {
+    flex: 0 0 33.33%;
+    max-width: 15.33%;
+    max-height: 350px;
+    display: grid;
+    grid-template-rows: auto 1fr auto; 
+    align-items: flex-start;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5em 2.5em 0;
+    padding-bottom: 3.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    box-sizing: border-box;
+}
+
+
+.testimonio-header {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    justify-content: left;
+    margin-bottom: 10px; 
+}
+  
+.testimonio-header img {
+    width: 50px; 
+    height: 50px;
+    border-radius: 20%; 
+    object-fit: cover;
+}
+  
+.testimonio-header h3 {
+    font-size: 1.2rem;
+    color: #333; 
+}
+
+.testimonio p {
+    font-size: 1em;
+    color: #444;
+    text-align: left;
+    margin-top: 0.5rem;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.testimonio-estrellas {
+    display: flex;
+    gap: 5px;
+    margin-top: 10px;
+    text-align: left;
+    position: absolute;
+    bottom: 20px; 
+    left: 40px; 
+}
+  
+.testimonio-estrellas i {
+    font-size: 1.5rem; 
+    color: #f5c518; 
+    margin: 0 2px; 
+}
+
+.puntos-navegacion {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.punto {
+    width: 10px;
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.punto.activo {
+    background-color: #019add;
+}
+
+
+@media (max-width: 1024px) {
+
+    .carrusel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        will-change: transform;
+        gap: 50px;
+    }
+
+    .testimonio {
+        flex: 0 0 50%;
+        max-width: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .carrusel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        will-change: transform;
+        gap: 45px;
+    }
+
+    .testimonio {
+        flex: 0 0 100%;
+        max-width: 15%;
+    }
+}

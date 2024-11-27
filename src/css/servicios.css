@@ -1,0 +1,158 @@
+.servicios {
+    text-align: center;
+    padding: 3em 1em;  
+    position: relative; 
+}
+
+.background-figuras {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.figura {
+    width: 150px;
+    height: 120px;
+    position: absolute;
+    opacity: 0.2; 
+    transform: scale(1.5);
+}
+
+.figura2 {
+    bottom: 10%;
+    right: -5.5%;
+}
+
+.figura3 {    
+    top: 10%;
+    left: -3%;
+    right: 5%;
+    transform: scale(1.5) rotate(90deg);
+}
+
+.servicios h2 {
+    font-size: 2.5em;
+    color: #019add;
+    margin-bottom: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.servicios-contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.servicio {
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.servicio:hover {
+    transform: translateY(-10px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.servicio img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.servicio-info {
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    flex-grow: 1; 
+}
+
+.servicio-info h3 {
+    font-size: 19px;
+    color: #333;
+    margin-bottom: 0px;
+}
+
+.servicio-info .dirigido {
+    font-size: 1em;
+    color: #019add;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.servicio-info .dirigido i {
+    margin-right: 5px;
+}
+
+.servicio-info p {
+    color: #666;
+    font-size: 1em;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #019add;
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.btn:hover {
+    background-color: #017bb8; 
+    transform: scale(1.05); 
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); 
+}
+
+@media (max-width: 768px) {
+
+    .figura {
+        width: 100px;
+        height: 110px;
+        position: absolute;
+        opacity: 0.2; 
+        transform: scale(1.5);
+    }
+    
+
+    .servicio-info {
+        padding: 1.5em;
+    }
+
+    .servicios h2 {
+        font-size: 2em;
+    }
+
+    .servicio-info h3 {
+        font-size: 1.3em;
+    }
+
+    .servicio-info .dirigido {
+        font-size: 1em;
+    }
+
+    .servicio-info p {
+        font-size: 0.9em;
+    }
+}
+

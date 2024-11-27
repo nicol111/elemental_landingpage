@@ -1,0 +1,42 @@
+.clientes-corp {
+    text-align: center;
+    padding: 2.5em 1em 0;
+    background-color: #fff;
+    
+}
+
+.clientes-corp h2 {
+    font-size: 2em; 
+    color: #019bddc4;
+    margin: 0; 
+    text-align: center;
+}
+
+.clientes-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; 
+}
+
+.clientes-logo {
+    max-width: 80%;
+    opacity: 0; 
+    width: 1200px;
+    height: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    transform: translateY(50px); 
+    transition: opacity 0.8s ease, transform 0.8s ease; 
+}
+
+.clientes-logo.visible {
+    opacity: 1; 
+    transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+    .clientes-logo {
+        max-width: 90%; 
+    }
+}
