@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import logo from './imagenes/logos/Logo Elemental.png';
 import '../css/header.css';
 
 
@@ -28,8 +29,7 @@ const Header = () => {
   return (
     <header className={`main-header ${isScrolled ? 'scrolled' : ''}`} id="mainHeader">
       <div className="logo">
-      <img src="${process.env.PUBLIC_URL}/imagenes/logos/Logo Elemental.png" alt="Elemental Logo" width="180" height="60" />
-
+        <img src={logo} alt="Elemental Logo" width="180" height="60" />
       </div>
       <nav>
         <ul className={`nav-links ${menuOpen ? 'show' : ''}`}>
