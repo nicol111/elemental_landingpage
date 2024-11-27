@@ -13,7 +13,7 @@ const Banner = () => {
                 <p>Divertidos e innovadores Cursos en Tecnología que desarrollan las habilidades digitales del siglo XXI.</p>
             </div>
             <div className="banner-image">
-                <img src="/imagenes/Banner/niño.png" alt="Niño aprendiendo tecnología" />
+                <img src="imagenes/Banner/niño.png" alt="Niño aprendiendo tecnología" />
             </div>
         </section>
     );

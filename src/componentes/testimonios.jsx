@@ -10,32 +10,32 @@ const Testimonios = () => {
   const testimoniosData = [
     {
       name: "Claudia Chipana",
-      image: "/imagenes/Clientes/client-01.png",
+      image: "imagenes/Clientes/client-01.png",
       text: "Agradezco el apoyo que dan a nuestros niños, ya que desde muy pequeños los van formando para ser unas personas muy preparadas. Gracias a todos los que forman el equipo de Elemental.",
     },
     {
       name: "Nataly Lopez",
-      image: "/imagenes/Clientes/client-02.png",
+      image: "imagenes/Clientes/client-02.png",
       text: "Mi hija de 10 años disfruta sus clases de robótica, videojuegos, desde el inicio de 0 y su forma de ver la tecnología es diferente. Ahora creando su videojuego y su robot perrito. Gracias es el mejor equipo de Bolivia.",
     },
     {
       name: "Olga Murguia",
-      image: "/imagenes/Clientes/client_06.jpg",
+      image: "imagenes/Clientes/client_06.jpg",
       text: "Los talleres de vacaciones les encantaron a mis hijos, no sólo se divirtieron sino que aprendieron. Muchas felicidades al equipo de Elemental, espero que sigan con el mismo entusiasmo por mucho tiempo.",
     },
     {
       name: "Armando Picón",
-      image: "/imagenes/Clientes/client-03.png",
+      image: "imagenes/Clientes/client-03.png",
       text: "El mejor lugar en Bolivia para que los chicos y jóvenes puedan aprender sobre programación y robótica. La tecnología al alcance de todos!",
     },
     {
       name: "Rocio CN",
-      image: "/imagenes/Clientes/client_05.jpg",
+      image: "imagenes/Clientes/client_05.jpg",
       text: "Quiero felicitar y agradecer a todos los que conforman Elemental, por la dedicación, el apoyo individual que le dan a cada estudiante.",
     },
     {
       name: "Braham Castillo ",
-      image: "/imagenes/Clientes/client_04.png",
+      image: "imagenes/Clientes/client_04.png",
       text: "Sigan incentivando el uso de la tecnología en nuestros niños! Felicidades!!”",
     },
   ];
