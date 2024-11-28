@@ -197,14 +197,13 @@ p {
     }
 
     .footer-logo {
-        margin: 0 30px 15px auto;
+        margin-left: -5px;
     }
 
     p {
         max-width: 100%;
-        color: #bbb;
-        font-size: 12px;
-        margin-right: 10px;
+        font-size: 14px;
+        
     }
 
     h5 {

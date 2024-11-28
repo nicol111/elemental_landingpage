@@ -252,12 +252,19 @@
 
 @media (max-width: 398px) {
 
+    .description {
+        width: 100%;
+        text-align: center;
+        padding: 0px;
+
+    }
+
     .description h2 {
-        font-size: 1.3em;
+        font-size: 1.5em;
     }
 
     .description p {
-        font-size: 0.7em;
+        font-size: 0.9em;
     }
 }
 
