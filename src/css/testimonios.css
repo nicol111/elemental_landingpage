@@ -129,11 +129,113 @@
         display: flex;
         transition: transform 0.5s ease-in-out;
         will-change: transform;
-        gap: 45px;
+        gap: 40px;
     }
 
     .testimonio {
-        flex: 0 0 100%;
+        flex: 0 0 100%; 
         max-width: 15%;
+        word-wrap: break-word; 
+        overflow-wrap: break-word; 
+    }
+
+    .testimonio-estrellas {
+        display: flex;
+        gap: 5px;
+        margin-top: 10px;
+        text-align: left;
+        position: absolute;
+        bottom: 20px; 
+        left: 30px; 
+    }
+
+    .testimonio-estrellas i {
+        font-size: 1.2rem;
     }
 }
+
+@media (max-width: 430px) {
+    .carrusel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        will-change: transform;
+        gap:30px;
+    }
+    .testimonio {
+        min-height: 350px;
+        padding: 1rem; 
+    }
+
+    .testimonio h3 {
+        font-size: 1rem; 
+    }
+
+    .testimonio p {
+        font-size: 1rem; 
+        line-height: 1.3; 
+    }
+
+    .testimonio-estrellas i{
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 390px) {
+    .carrusel {
+        display: flex;
+        transition: transform 0.5s ease-in-out;
+        will-change: transform;
+        gap: 30px;
+    }
+
+    .testimonio {
+        min-height: 280px; 
+        max-height: auto;
+        padding: 1rem;
+        display: grid; 
+        grid-template-rows: auto 1fr auto; 
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+
+
+    .testimonio-header h3 {
+        font-size: 0.9rem;
+        margin: 0;
+        text-align: left; 
+    }
+
+    .testimonio p {
+        font-size: 0.85rem; 
+        text-align: center;
+        line-height: 1.4; 
+        margin: 1rem 0; 
+    }
+
+    .testimonio-estrellas {
+        display: flex;
+        justify-content: flex-start; 
+        gap: 5px; 
+        margin-top: auto; 
+    }
+
+    .testimonio-estrellas i {
+        font-size: 1.2rem;
+        color: #f5c518;
+    }
+}
+
+@media (max-width: 354px) {
+    .testimonio {
+        min-height: 310px; 
+        max-width: auto;
+        padding: 1rem;
+        display: grid; 
+        grid-template-rows: auto 1fr auto; 
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+}
+
+

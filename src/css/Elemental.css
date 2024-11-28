@@ -231,10 +231,51 @@
     }
 
     .description h2 {
+        font-size: 1.8em;
+    }
+
+    .description p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .description h2 {
         font-size: 1.5em;
     }
 
     .description p {
-        font-size: 0.95em;
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 398px) {
+
+    .description h2 {
+        font-size: 1.3em;
+    }
+
+    .description p {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 358px) {
+    
+    .description {
+        width: 100%;
+        text-align: center;
+        padding: 9px;
+
+    }
+
+    .description h2 {
+        font-size: 1.3em;
+        margin-bottom: 0%;
+    }
+
+    .description p {
+        font-size: 0.7em;
     }
 }

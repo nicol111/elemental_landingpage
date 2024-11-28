@@ -157,3 +157,17 @@ section {
         margin: 0 auto; 
     }
 }
+
+@media (max-width: 390px) {
+
+    .banner-content h1 {
+        font-size: 40px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 30px; 
+    }
+
+    .banner-content p {
+        font-size: 15px;
+    }
+}
